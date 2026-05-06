@@ -10,6 +10,8 @@
     />
     <title>Panchtarni Atta | Premium Fresh Chakki Atta</title>
 
+    <link rel="icon" href="./assets/brand-photo.svg" type="image/svg+xml" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -453,6 +455,24 @@
         gap: 12px;
         position: relative;
         overflow: hidden;
+      }
+
+      .product-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .product-brand-photo {
+        width: 48px;
+        height: 48px;
+        border-radius: 16px;
+        object-fit: cover;
+        border: 1px solid rgba(27, 27, 27, 0.1);
+        background: rgba(245, 230, 200, 0.55);
+        box-shadow: 0 10px 25px rgba(17, 17, 17, 0.06);
+        flex: 0 0 auto;
       }
 
       .product-card::before {
@@ -1148,7 +1168,18 @@
 
           <div class="grid-3">
             <div class="card product-card reveal" aria-label="5kg pack">
-              <div class="tag">Everyday Fresh</div>
+              <div class="product-top">
+                <div class="tag">Everyday Fresh</div>
+                <img
+                  class="product-brand-photo"
+                  src="./assets/brand-photo.svg"
+                  alt="Panchtarni Atta"
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
               <h3>5kg Pack</h3>
               <ul>
                 <li>Ideal for smaller households</li>
@@ -1162,7 +1193,18 @@
             </div>
 
             <div class="card product-card reveal" aria-label="10kg pack">
-              <div class="tag">Most Popular</div>
+              <div class="product-top">
+                <div class="tag">Most Popular</div>
+                <img
+                  class="product-brand-photo"
+                  src="./assets/brand-photo.svg"
+                  alt="Panchtarni Atta"
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
               <h3>10kg Pack</h3>
               <ul>
                 <li>Great value for families</li>
@@ -1176,7 +1218,18 @@
             </div>
 
             <div class="card product-card reveal" aria-label="20kg family pack">
-              <div class="tag">Family Stock</div>
+              <div class="product-top">
+                <div class="tag">Family Stock</div>
+                <img
+                  class="product-brand-photo"
+                  src="./assets/brand-photo.svg"
+                  alt="Panchtarni Atta"
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
               <h3>20kg Family Pack</h3>
               <ul>
                 <li>For larger households</li>
